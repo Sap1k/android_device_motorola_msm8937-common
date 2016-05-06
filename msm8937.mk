@@ -306,6 +306,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.mmi.usb.sh \
+    init.recovery.qcom.rc \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sensors.sh \
