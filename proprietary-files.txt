@@ -499,6 +499,9 @@ vendor/lib64/libqmi_encdec.so|25b6d53c89a39fba2784ee66c66685db0a81f0c9
 vendor/lib64/libqmi.so|181f334e4ad421099879fea10d78767a9154d9e8
 vendor/lib64/libqmiservices.so|c4d5f3cec4ba4ea4d9944d8e6155a4d055ff595c
 
+# RIL - from mata QP1A.190711.107
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|956a4017d0ba7f68e6d225e57b40d3b2bcbb4837
+
 # RIL - from deen_sprout - PPKS29.68-16-36-13
 -app/QtiTelephonyService/QtiTelephonyService.apk|fbe14d0a7c621e3721f27b58d91f917ed5834d87
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
@@ -506,7 +509,6 @@ etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 -framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
 -framework/QtiTelephonyServicelibrary.jar|94208d7e8e94db498112712c8d0eb551d23e6318
 -framework/qcrilhook.jar|f4e4a04bb4bd2015d8426146e4f59b341a0c7b5a
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|a741ad9bd64a9d87048b43eaddef03d239b777a2
 vendor/bin/ATFWD-daemon|c2f6860baa674410badf1b88ccec8645ee5be41b
 vendor/bin/netmgrd|d0261b43d64a5a9f87552c01eb645002f21ccf03
 vendor/bin/qti|5236c9b34a28a72a502f7ef2be6d95e39533dd00
