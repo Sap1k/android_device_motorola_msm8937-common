@@ -83,8 +83,7 @@ PRODUCT_PACKAGES += \
     libwui
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service
+    android.hardware.camera.provider@2.4-impl
 
 # CNE
 PRODUCT_PACKAGES += \
