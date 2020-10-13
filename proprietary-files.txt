@@ -1,21 +1,15 @@
-# ADSP - from deen_sprout - QPKS30.54-22-7
-vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
-vendor/lib/libadspd.so|1058e9bf5ffb8d9ab5c5181afd503937007a15ac
-vendor/lib/libadsprpc.so|e00e8dcb88e9b204fd90bb2c32afcc7fa28dbad1
-vendor/lib/libadsp_default_listener.so|c9a1ee00b32a93a9496ec84393afa0625e929eed
-vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
-vendor/lib/libfastcvopt.so|2df00c3827fe1db322084cb3935241f17d1532f4
-vendor/lib/libmdsprpc.so|642f74bfec1098397c7ee025e0744badbf14fc39
-vendor/lib/libsdsprpc.so|2963c73745b8b1ccab64260ce93e3679c7c66113
-vendor/lib64/libadspd.so|6a3e9f01ec2bef177e5d020eb353fce6039a0863
-vendor/lib64/libadsprpc.so|3dd28423f6b786584a1c80b2cdb6e22a1c00b0ae
-vendor/lib64/libadsp_default_listener.so|d7436ae6255671b4c3af533b5c89d91d75d5069e
-vendor/lib64/libfastcvadsp_stub.so|f101b66fa4a450b5af2e6aa9f7aaa28f9a876005
-vendor/lib64/libfastcvopt.so|f5e25aa055a57e23530b858bf7dd204a6009effc
-vendor/lib64/libmdsprpc.so|38de6a53d3c2ff60a253c7c6a0d3b46962e8e194
-vendor/lib64/libsdsprpc.so|1e89a33bae491abe4c81bb77c8fabf59bff4b853
+# ADSP - from deen_sprout - PPKS29.68-16-36-13
+vendor/bin/adsprpcd|3d1e7e14dfc2f2468a06e0af9c0d34f4bda28d4b
+vendor/lib/libadsp_default_listener.so|d9de89d55eba2d35a7583584b51335a663705fa7
+vendor/lib/libadsprpc.so|7e5c1e4d18cb8053087baaf97a1e9eecf383d88b
+vendor/lib/libfastcvadsp_stub.so|6b50fd7d53811b51e06fedd87c12a794d0c2f645
+vendor/lib/libfastcvopt.so|b36b3c6805e8fc3c9cc1d0465d53d0f6cd587336
+vendor/lib64/libadsp_default_listener.so|f7ea94537c66dfa11e1235064d43c8f56c3b3c51
+vendor/lib64/libadsprpc.so|f8e157e472e5d77c7198d6f901fb5dc3fd2db5d0
+vendor/lib64/libfastcvadsp_stub.so|ad72fe745a7a8f4b3a355cc0aaf177c29301f29f
+vendor/lib64/libfastcvopt.so|8bf629759f67073a0c310c25452e8610825f78cc
 
-# ADSP modules - from deen_sprout - QPKS30.54-22-7
+# ADSP modules - from deen_sprout - PPKS29.68-16-36-13
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|5c82ad9cfe3f30105d899e2a4e90cc7566f81252
 vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
 vendor/lib/rfsa/adsp/libfastcvadsp.so|9818625bfa018f517e32a8f4a1e7fb4b255e5049
@@ -39,32 +33,14 @@ vendor/lib64/libacdbrtac.so|2e44a45a2f61c621d4c746acc83139718d18ceef
 vendor/lib64/libadiertac.so|71d606669c19e567283751ce0ecdf757792adab3
 vendor/lib64/libaudcal.so|fdb34621e3d4433bcdc047ad536f0dac3a85b0e7
 
-# Bluetooth - from deen_sprout - QPKS30.54-22-7
--lib/libbtconfigstore.so|00d1330370a6ac6bd03938009998a23ce310b0cf
--lib64/libbtconfigstore.so|47b54b0ffcdec367df04bad1b632bde39d37f49f
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|365c3de57a8a655da6b0882bf5411558025883e1
+# Bluetooth - from deen_sprout - PPKS29.68-16-36-13
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|063da7375148fdd56930a54ea8d3e276725e62df
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1cbb9475e665e55827392c4e63e404e5056e84e2
-vendor/lib64/libbtnv.so|143ba8a42154a26469b87243ae3e1cd5e9565b13
-vendor/lib64/libbt-hidlclient.so|69414712e85c8fabf9be9c697f0eaba470ab70eb
-
-# Bluetooth (Audio) - from deen_sprout - QPKS30.54-22-7
-vendor/lib64/hw/audio.bluetooth_qti.default.so|a17474dec03b704cc9741c85f2f6aef62c5ad71e
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|a1a86ead8177ac54dfdab729b9adf06af1d4a747
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|4e188cd7cc009ced6af7901f357005623dd0875a
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|df20addad1f9c1c8b342aeee1ff9a5fbc5cf8bb8
-vendor/lib64/libbluetooth_audio_session_qti.so|d1e4e89eb7f3aaafd0f776a390be2e6a6cad184b
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|8c6895ee0f64c33b829ce28d20de1021bf3e9cca
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|237a97fc3d3332b1466583178b548dd1525479ef
-vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|5677a85470b88400467410b9a264f56119b30046
-vendor/lib/hw/audio.bluetooth_qti.default.so|f99c2de8d7e5746ad777a758512b2a364462d59c
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|9880c5dcd6aca43d3caa7c16a1627a078a36d028
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|688065b7b8902d29a820aab3f5cc5dc584325423
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|e7efde96f1751fd7308568634380002fa325f4eb
-vendor/lib/libbluetooth_audio_session_qti.so|601ac8db9e9ee0e873643244f048ceb4258460f8
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|2aff95e3eb070334bee674f3706c3790b9c2e2ca
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|e2ff653e1a5e9d6379fa1fee6824642c4a615ce4
-vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|0ff482f72a05eb9e2a4617fe03ae9e737843c885
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|a6fa0b97864e41f36c7d859612d2b24c14bc1597
+vendor/lib64/libbtnv.so|f467a39938b8e76e3dea295ef412e69b6402254f
+vendor/lib64/libbt-hidlclient.so|e7cc68021ff2a38728a50c92914420ba61d2c5c3
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|b72b6bc0f79ef8289f4b543910e7e2d91961831f
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|ce9b89df917622cf1e0e58aa3b3be6e410c4c2d7
 
 # Motorola Camera - from aljeter - PPP29.55-25
 lib/motorola.hardware.camera.device@1.0.so:vendor/lib/motorola.hardware.camera.device@1.0.so|51afafb043bb3fce3509938103e6e6f6f792c7bb
@@ -178,19 +154,7 @@ vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|082ed7aabe19fd357d03f22045a1
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|15460dcdadee96d7e39b28d2b8bcac61b4e8d80a
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|95e3c11e8877b3716791e1b93d5f905208ca32ef
 
-# Fingerprint - from deen_sprout - PPKS29.68-16-36-13
-lib64/vendor.egistec.hardware.fingerprint@2.0.so|c80d9fd74a5cd3974530cec87561a36748b0c22d
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets|cd2be55c8cb8c66316775dd1148468a0635c7fd5
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc|dbc7ba996d78e8470add38aca9b2966f703beb15
-vendor/etc/init/init.ets.rc|68e5d6b5dbfcbd329c22b478ad7217e1315db981
-vendor/lib64/libets_fp_et5.so|536e9097b3f188b90c78882e8e72f3e2f8125666
-vendor/lib64/libets_teeclient.so|1021ffc65bd48e405a7c05c1cb3025317f5157c1
-vendor/lib64/vendor.egistec.hardware.fingerprint@2.0_vendor.so|70611a99139820e21ccdf218940eb68242cd482c
-
 # Gatekeeper - from deen_sprout - PPKS29.68-16-36-13
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|eeb4ba9eacb57c958051a47d307968254ee081d0
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|8c5a8f0bec5942dc3527cff95ae09959234e9e58
 vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|c1b386547234815a0d6116b5e4756de66075cd3f
 
 # GPS - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
@@ -332,8 +296,11 @@ lib64/lib-imsvt.so|7dfc533fc3c439a608b219838281d6c5f605ee22
 lib64/lib-imsvtextutils.so|dc3340321ee2543bb35248d0f9dac4718116a073
 lib64/lib-imsvtutils.so|13480b644ed5290f7ddc2f7c304c0e912f416098
 lib64/libdiag_system.so|811c30efa526e8e3828b112487b1d203cca5ed6e
+lib64/libimscamera_jni.so|133fec4e7be337eb255eb226c4ff96ae53b94be7
+lib64/libimsmedia_jni.so|577b1ed68e2a26e50e9e4dfed9fe1ca685979a56
 lib64/librcc.so|4d732d9211e3139ed17fae059edfcd71f0e13d7e
 lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
+-priv-app/ims/ims.apk|827f7f2040703bc11e5a13cf92e3f1339c419e60
 vendor/bin/ims_rtp_daemon|174be7387753db4b72fa4de305edaa80fe79b6a9
 vendor/bin/imsdatadaemon|56e1ab6f6f6679261bcd36dd218097632da866b6
 vendor/bin/imsqmidaemon|0e5cf08e7cbd4e34fb69e6644a8c7d5e6715c306
@@ -377,23 +344,8 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so|5862ab34c0d040dba63eced727146dd233cf
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f4eef520bbf98e6e1ac8697ef7eef0109487dba1
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
 
-# IMS - from daisy - QKQ1.191002.002 V11.0.2.0.QDLMIXM
-product/lib64/libimscamera_jni.so|7cb89110cca94d37d68c705f12a7a5a4ee106139
-product/lib64/libimsmedia_jni.so|3540752cc3658261ea3c909f03018eea4398f84e
--product/priv-app/ims/ims.apk|9c4ca91e0ec7a567d22251d7ca0640abf13fdd7b
-vendor/etc/init/imsdatadaemon.rc|29face37c174aebcd1358f7d7ad0bd4baf83063b
-vendor/etc/init/imsqmidaemon.rc|dda16d842b7c65296e97bc9921b723a43b152ba3
-vendor/etc/init/imsrcsd.rc|2dc42ff6e4b6dd389bd3bc9a7af30dec2f1a45df
-vendor/etc/init/ims_rtp_daemon.rc|b3c3a380204d7b1b3a58937db8c8e76c00ac8825
-
 # Keymaster - from deen_sprout - PPKS29.68-16-36-13
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|023a0e237fbc068a3191e91e5a1ec0ea5831d52b
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|6a04ddf5b92e97596e3764d2474ca8c26fa80139
 vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|f0ca30001ee9440aa8f4916057af5a2d1019ea6b
-vendor/lib64/libkeymasterdeviceutils.so|5dcb23eb145570876dd1f4f05ca56a114bc9de56
-vendor/lib64/libkeymasterprovision.so|3eb6d2ed05871605cf020bf8459296aea2453f90
-vendor/lib64/libkeymasterutils.so|45cc1a92cf151c56d940c6a7e23d64a207357b9a
 
 # Listen - from TA-1000_00CN - PKQ1.181105.001
 vendor/lib/hw/sound_trigger.primary.msm8937.so|43e9806f0196c173ce8ac31f70ac6b2293a75264
@@ -466,6 +418,7 @@ vendor/lib/libidl.so|2d97511414eb72a585006d209c189efa25704b85
 vendor/lib/libqcci_legacy.so|8d260dd5d9c9f3c8d395aa76ac57f9f99f49a61e
 vendor/lib/libqdi.so|714e734af3fbdc5d7b95aa21c74cd8e6f364535b
 vendor/lib/libqdp.so|60f79f6da076552d90044f7167e6efbed23e4834
+vendor/lib/libqmi_cci.so|5bf4765dc9bc6cdf79823187eea0a2118a9eebe6
 vendor/lib/libqmi_client_helper.so|ab65cddedf661bf455bc19ec85665bfcef840c77
 vendor/lib/libqmi_client_qmux.so|ccc3cb224d1c09cfff932c590a9ff1fa07139ad9
 vendor/lib/libqmi_common_so.so|7cb3c3b53f16d7901b97d12214cf250cbaa403f6
@@ -480,6 +433,7 @@ vendor/lib64/libidl.so|11a1fa8582eca13cab2c3ae07320b5c3e6c3c08c
 vendor/lib64/libqcci_legacy.so|0dfbcec5f3eae9e74d708f78b921762110677e70
 vendor/lib64/libqdi.so|b1b65fdf86799e8cbadde7f0ff08211dec01a227
 vendor/lib64/libqdp.so|3c3ee776606de84e42ad5f6162d35e0372c8853f
+vendor/lib64/libqmi_cci.so|4e053ea843a7d1e6f9d9e281102db9bb3c9a78ee
 vendor/lib64/libqmi_client_helper.so|69b74fa683d59549c83e796fa1df1d2d301bae29
 vendor/lib64/libqmi_client_qmux.so|59e35cd3d499991a0fa32c99f2dd3e535da3c07c
 vendor/lib64/libqmi_common_so.so|6d2a0fe45dfc47249e0318b64209c73e6d8adfc2
@@ -488,16 +442,14 @@ vendor/lib64/libqmi_encdec.so|25b6d53c89a39fba2784ee66c66685db0a81f0c9
 vendor/lib64/libqmi.so|181f334e4ad421099879fea10d78767a9154d9e8
 vendor/lib64/libqmiservices.so|c4d5f3cec4ba4ea4d9944d8e6155a4d055ff595c
 
-# QMI - from deen_sprout QPKS30.54-22-7
-vendor/lib/libqmi_cci.so
-vendor/lib64/libqmi_cci.so
-
 # RIL - from deen_sprout - PPKS29.68-16-36-13
 -app/QtiTelephonyService/QtiTelephonyService.apk|fbe14d0a7c621e3721f27b58d91f917ed5834d87
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
+-framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
 -framework/QtiTelephonyServicelibrary.jar|94208d7e8e94db498112712c8d0eb551d23e6318
 -framework/qcrilhook.jar|f4e4a04bb4bd2015d8426146e4f59b341a0c7b5a
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|a741ad9bd64a9d87048b43eaddef03d239b777a2
 vendor/bin/ATFWD-daemon|c2f6860baa674410badf1b88ccec8645ee5be41b
 vendor/bin/netmgrd|d0261b43d64a5a9f87552c01eb645002f21ccf03
 vendor/bin/qti|5236c9b34a28a72a502f7ef2be6d95e39533dd00
@@ -560,12 +512,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so|1c608fed942240899aa1ccb39c2a66
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|810f255e2195b4fb3b0f779628e900ca6da7c9c7
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|d7866866a82f2e8a132057337e63a60cb310ba44
 vendor/radio/qcril_database/qcril.db|091e6580d99bfb8d6561b980c58733b61a9f44c9
-
-# RIL - from daisy - QKQ1.191002.002-V11.0.2.0.QDLMIXM
-product/framework/qti-telephony-common.jar|11d6b89b31a9bf65218b3676c2bbd296275b1932
--product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|20c011ffc54539161fa7cc05c55c9c5ed3f936b4
-vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
-vendor/etc/init/netmgrd.rc|fd3457c69a9fab11b87d0d1b494188fe089684cd
 
 # MOTO RIL - from deen_sprout - PPKS29.68-16-36-13
 vendor/bin/qmi_motext_hook|1fdc109e99d61a65795aed55eb7447604f002b8c
